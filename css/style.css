@@ -14,12 +14,16 @@ body {
     padding-right: 150px;
     align-items: center;
     justify-content: space-between;
+    padding-top: 50px;
 }
 
-.heading-content {
+/* .heading-content {
     padding: 175px 30px 150px 0px;
-}
+} */
+.heading-content{
 
+    padding-right: 30px;
+}
 .heading-slogan {
     color: #272727;
     font-size: 50px;
@@ -30,16 +34,17 @@ body {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     font-weight: 300;
+    line-height: 1.5;
 }
 
-.heading-btn {
+.btn-primary {
     border-radius: 8px;
     background: #E55473;
     border: none;
     padding: 15px 30px;
 }
 
-.heading-btn a {
+.btn-primary a {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
@@ -48,5 +53,33 @@ body {
 
 .heading img {
     width: 450px;
-   
+
+}
+
+/* main section styles */
+
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px 170px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.discount-content {
+    text-align: center;
+}
+
+.discount-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.off {
+    color: #E55473;
+}
+
+.discount-image img {
+    width: 250px;
 }
