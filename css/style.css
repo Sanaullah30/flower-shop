@@ -20,10 +20,11 @@ body {
 /* .heading-content {
     padding: 175px 30px 150px 0px;
 } */
-.heading-content{
+.heading-content {
 
     padding-right: 30px;
 }
+
 .heading-slogan {
     color: #272727;
     font-size: 50px;
@@ -70,7 +71,7 @@ body {
     text-align: center;
 }
 
-.discount-title {
+.primary-title {
     color: #272727;
     font-size: 30px;
     font-weight: 800;
@@ -82,4 +83,52 @@ body {
 
 .discount-image img {
     width: 250px;
+}
+
+/* Instagram section start for styles */
+
+.instagram{
+    padding: 40px 0px 70px 0px;
+}
+.insta-content {
+    display: block;
+    text-align: center;
+}
+
+.insta-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 0;
+}
+
+.insta-image-section{
+    display: flex;
+    width: 78%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.insta-image{
+    width: 242px;
+    height: auto;
+    margin: 0 10px;
+   
+}
+
+.subscribe-image{
+    text-align: center;
+    padding: 75px 0 0 0;
+    position: relative;
+}
+
+.subscribe-image img{
+    width: 1028px;
+    height: auto;
+}
+
+.subscribe-image h4, p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
