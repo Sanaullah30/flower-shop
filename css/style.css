@@ -129,6 +129,28 @@ body {
 
 .subscribe-image h4, p{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 100px;
+    left: 526px;
+}
+
+.subscribe-image p{
+    position: absolute;
+    top: 175px;
+    left: 573px;
+}
+
+.subscribe-image input{
+    position: absolute;
+    top: 250px;
+    left: 573px;
+}
+
+.subscribe-image button{
+    position: absolute;
+    top: 250px;
+    right: 500px;
+}
+
+.subscribe-image input{
+    
 }
