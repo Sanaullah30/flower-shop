@@ -87,9 +87,10 @@ body {
 
 /* Instagram section start for styles */
 
-.instagram{
+.instagram {
     padding: 40px 0px 70px 0px;
 }
+
 .insta-content {
     display: block;
     text-align: center;
@@ -102,64 +103,64 @@ body {
     line-height: 0;
 }
 
-.insta-image-section{
+.insta-image-section {
     display: flex;
     width: 78%;
     margin: auto;
     margin-top: 50px;
 }
 
-.insta-image{
+.insta-image {
     width: 242px;
     height: auto;
     margin: 0 10px;
-   
+
 }
 
-.subscribe-image{
+.subscribe-image {
     text-align: center;
     padding: 75px 0 0 0;
     position: relative;
 }
 
-.subscribe-image img{
+.subscribe-image img {
     width: 1028px;
     height: auto;
 }
 
-.subscribe-image h4{
+.subscribe-image h4 {
     position: absolute;
     top: 100px;
     left: 526px;
 }
 
-.subscribe-image>p{
+.subscribe-image>p {
     position: absolute;
     top: 175px;
     left: 573px;
 }
 
-.subscribe-image input{
+.subscribe-image input {
     position: absolute;
     top: 250px;
     left: 370px;
 }
 
-.subscribe-image button{
+.subscribe-image button {
     position: absolute;
     top: 250px;
     right: 350px;
 }
 
-.subscribe-image input{
-    width:480px;
-    padding: 13px 12px; 
+.subscribe-image input {
+    width: 480px;
+    padding: 13px 12px;
     border: none;
     border-radius: 5px;
     font-family: lato;
 }
 
-.subscribe-image button{
+.subscribe-image button {
     padding: 13px 25px;
     border-radius: 5px;
     background: #E55473;
@@ -168,5 +169,31 @@ body {
     font-weight: 700;
 }
 
-   
+.footer {
+    background: #111010;
+    padding: 50px 0px;
+    text-align: center;
+}
 
+.footer .footer-title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 0;
+}
+
+.footer .footer-title span {
+    color: #E55473;
+    ;
+
+}
+
+.footer .footer-para {
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.footer .copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
